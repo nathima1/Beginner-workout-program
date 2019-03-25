@@ -49,7 +49,7 @@ def pull_strength():
         print('Invalid selection')
 
 def pull_size():
-    excersize_select = input('Select your excersize (row, pullup, or deadlift) (): ')
+    excersize_select = input('Select your excersize (row, pullup, or deadlift): ')
     max_input = float(input('Enter your max: '))
     calc_workout_size_one =  float(max_input)*.80
     calc_size_two = float(max_input)*.75
@@ -73,7 +73,7 @@ def leg_strength():
         print('Invalid selection')
 
 def leg_size():
-    excersize_select = input('Select your excersize (squat, hip thrust, or lunges) (): ')
+    excersize_select = input('Select your excersize (squat, hip thrust, or lunges): ')
     max_input = float(input('Enter your max: '))
     calc_workout_size_one =  float(max_input)*.80
     calc_size_two = float(max_input)*.75
